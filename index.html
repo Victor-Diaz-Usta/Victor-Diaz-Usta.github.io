@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portafolio de Víctor Hugo Díaz Bautista: proyectos, habilidades y contacto." />
+  <title>Víctor Hugo Díaz Bautista | Portafolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="#inicio" aria-label="Ir al inicio">
+        <span class="brand__dot" aria-hidden="true"></span>
+        <span class="brand__text">VHD</span>
+      </a>
+
+      <button class="icon-btn header__menu" id="menuBtn" aria-label="Abrir menú" aria-expanded="false">
+        ☰
+      </button>
+
+      <nav class="nav" id="nav" aria-label="Navegación principal">
+        <a class="nav__link" href="#sobre-mi">Sobre mí</a>
+        <a class="nav__link" href="#habilidades">Habilidades</a>
+        <a class="nav__link" href="#proyectos">Proyectos</a>
+        <a class="nav__link" href="#trayectoria">Trayectoria</a>
+        <a class="nav__link" href="#contacto">Contacto</a>
+
+        <button class="icon-btn" id="themeBtn" type="button" aria-label="Cambiar tema">
+          🌙
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+      <div class="container hero__grid">
+        <div class="hero__text">
+          <p class="badge">Disponible para proyectos • Freelance / Full-time</p>
+          <h1>Víctor Hugo Díaz Bautista</h1>
+          <p class="lead">
+            Analítica de datos, econometría, ciencia de datos y modelación (R / Python / Power BI).
+            Construyo soluciones reproducibles y enfocadas en negocio.
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="#proyectos">Ver proyectos</a>
+            <a class="btn btn--ghost" href="#contacto">Contactarme</a>
+          </div>
+
+          <div class="chips" aria-label="Tecnologías principales">
+            <span class="chip">R</span>
+            <span class="chip">Python</span>
+            <span class="chip">Power BI</span>
+            <span class="chip">SQL</span>
+            <span class="chip">Series de tiempo</span>
+            <span class="chip">Modelos actuariales</span>
+          </div>
+
+          <div class="links">
+            <!-- Cambia estos enlaces por los tuyos -->
+            <a href="https://github.com/TU_USUARIO" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/TU_USUARIO" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="#contacto">Email</a>
+            <a href="./README.md" target="_blank" rel="noreferrer">README</a>
+          </div>
+        </div>
+
+        <div class="hero__card">
+          <img class="avatar" src="./img/profile.jpg" alt="Foto de perfil" />
+          <div class="card">
+            <h2 class="card__title">Resumen rápido</h2>
+            <ul class="card__list">
+              <li>📍 Colombia</li>
+              <li>📊 Enfoque: BI, econometría, riesgo y pronóstico</li>
+              <li>🧰 Stack: R, Python, Power BI, SQL, Git</li>
+              <li>✅ Entregables: dashboards, reportes, modelos, automatizaciones</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="sobre-mi">
+      <div class="container">
+        <div class="section__head">
+          <h2>Sobre mí</h2>
+          <p class="muted">
+            Escribe aquí tu bio corta (2–4 líneas). Mantén el enfoque en resultados y en el tipo de problemas que resuelves.
+          </p>
+        </div>
+
+        <div class="grid-2">
+          <div class="panel">
+            <h3>Lo que hago</h3>
+            <p>
+              Diseño y construyo soluciones de analítica: desde ETL/limpieza, modelación y validación,
+              hasta visualización y narrativa de resultados para toma de decisiones.
+            </p>
+          </div>
+
+          <div class="panel">
+            <h3>Cómo trabajo</h3>
+            <p>
+              Priorizo reproducibilidad (RMarkdown/Quarto), claridad (documentación) y performance (modelos y pipelines livianos).
+              Entrego proyectos con estructura, control de versiones y próximos pasos.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="habilidades">
+      <div class="container">
+        <div class="section__head">
+          <h2>Habilidades</h2>
+          <p class="muted">Un “stack” claro, como en perfiles de GitHub populares: tecnologías + lo que puedes demostrar.</p>
+        </div>
+
+        <div class="grid-3">
+          <div class="panel">
+            <h3>Data & BI</h3>
+            <ul class="list">
+              <li>Power BI (DAX, modelado estrella)</li>
+              <li>SQL (consultas, optimización)</li>
+              <li>ETL (limpieza, validación)</li>
+            </ul>
+          </div>
+
+          <div class="panel">
+            <h3>Modelación</h3>
+            <ul class="list">
+              <li>Econometría aplicada</li>
+              <li>Series de tiempo (ARIMA/SARIMA, etc.)</li>
+              <li>Riesgo/actuarial (tablas, VP, reservas)</li>
+            </ul>
+          </div>
+
+          <div class="panel">
+            <h3>Dev & reproducibilidad</h3>
+            <ul class="list">
+              <li>Git/GitHub (issues, PRs)</li>
+              <li>RMarkdown/Quarto + LaTeX</li>
+              <li>Automatización (scripts)</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="stats">
+          <h3 class="stats__title">GitHub (opcional)</h3>
+          <p class="muted">Cambia <strong>TU_USUARIO</strong> por tu username real para que se vean tus estadísticas.</p>
+
+          <div class="stats__grid">
+            <img
+              class="stats__img"
+              alt="GitHub stats"
+              loading="lazy"
+              src="https://github-readme-stats.vercel.app/api?username=TU_USUARIO&show_icons=true&hide_title=true"
+            />
+            <img
+              class="stats__img"
+              alt="Top languages"
+              loading="lazy"
+              src="https://github-readme-stats.vercel.app/api/top-langs/?username=TU_USUARIO&layout=compact"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="proyectos">
+      <div class="container">
+        <div class="section__head">
+          <h2>Proyectos</h2>
+          <p class="muted">Formato tipo “pinned repos”: título, impacto, stack y links.</p>
+        </div>
+
+        <div class="filters" role="tablist" aria-label="Filtros de proyectos">
+          <button class="filter is-active" data-filter="all" type="button">Todos</button>
+          <button class="filter" data-filter="bi" type="button">BI</button>
+          <button class="filter" data-filter="ml" type="button">Modelos</button>
+          <button class="filter" data-filter="r" type="button">R</button>
+          <button class="filter" data-filter="python" type="button">Python</button>
+        </div>
+
+        <div class="cards" id="projectGrid">
+          <!-- Proyecto 1 -->
+          <article class="card card--project" data-tags="bi sql">
+            <h3>Dashboard de ventas (Power BI)</h3>
+            <p class="muted">
+              Modelo estrella + medidas DAX para KPIs, cohortes y segmentación. Enfoque en performance y trazabilidad.
+            </p>
+            <div class="meta">
+              <span class="pill">Power BI</span><span class="pill">DAX</span><span class="pill">SQL</span>
+            </div>
+            <div class="actions">
+              <a class="btn btn--small" href="#" target="_blank" rel="noreferrer">Repo</a>
+              <a class="btn btn--small btn--ghost" href="#" target="_blank" rel="noreferrer">Demo</a>
+            </div>
+          </article>
+
+          <!-- Proyecto 2 -->
+          <article class="card card--project" data-tags="r ml">
+            <h3>Pronóstico de series de tiempo (R)</h3>
+            <p class="muted">
+              Pipeline reproducible con evaluación (MAPE/RMSE), diagnóstico de residuos y comparación de modelos.
+            </p>
+            <div class="meta">
+              <span class="pill">R</span><span class="pill">ARIMA/SARIMA</span><span class="pill">RMarkdown</span>
+            </div>
+            <div class="actions">
+              <a class="btn btn--small" href="#" target="_blank" rel="noreferrer">Repo</a>
+              <a class="btn btn--small btn--ghost" href="#" target="_blank" rel="noreferrer">Reporte</a>
+            </div>
+          </article>
+
+          <!-- Proyecto 3 -->
+          <article class="card card--project" data-tags="python ml">
+            <h3>Automatización y validación de datos (Python)</h3>
+            <p class="muted">
+              Scripts para limpieza, validación y generación de reportes. Enfoque en robustez y trazabilidad.
+            </p>
+            <div class="meta">
+              <span class="pill">Python</span><span class="pill">Pandas</span><span class="pill">QA</span>
+            </div>
+            <div class="actions">
+              <a class="btn btn--small" href="#" target="_blank" rel="noreferrer">Repo</a>
+              <a class="btn btn--small btn--ghost" href="#" target="_blank" rel="noreferrer">Caso</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TIMELINE -->
+    <section class="section" id="trayectoria">
+      <div class="container">
+        <div class="section__head">
+          <h2>Trayectoria</h2>
+          <p class="muted">Educación, experiencia o hitos. Corto y verificable.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline__item">
+            <div class="timeline__dot" aria-hidden="true"></div>
+            <div>
+              <h3>Proyecto / Rol reciente</h3>
+              <p class="muted">2025 — 2026 • Describe impacto: qué optimizaste, cuánto mejoró, qué entregaste.</p>
+            </div>
+          </div>
+
+          <div class="timeline__item">
+            <div class="timeline__dot" aria-hidden="true"></div>
+            <div>
+              <h3>Formación</h3>
+              <p class="muted">Universidad / Certificación • Enfoque en analítica, estadística, riesgo, etc.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contacto">
+      <div class="container">
+        <div class="section__head">
+          <h2>Contacto</h2>
+          <p class="muted">Déjalo facilísimo: email, redes y CTA.</p>
+        </div>
+
+        <div class="grid-2">
+          <div class="panel">
+            <h3>Escríbeme</h3>
+            <p class="muted">Victordiazb@usantotomas.edu.co.</p>
+
+            <div class="contact">
+              <code id="emailText">Victordiazb@usantotomas.edu.co</code>
+              <button class="btn btn--small" id="copyEmailBtn" type="button">Copiar</button>
+            </div>
+
+            <p class="muted small" id="copyMsg" aria-live="polite"></p>
+          </div>
+
+          <form class="panel form" onsubmit="return false;">
+            <h3>Mensaje rápido (demo)</h3>
+            <label>
+              <span>Nombre</span>
+              <input type="text" placeholder="Tu nombre" />
+            </label>
+            <label>
+              <span>Mensaje</span>
+              <textarea rows="4" placeholder="Cuéntame qué necesitas"></textarea>
+            </label>
+            <button class="btn btn--primary" type="button" id="fakeSendBtn">Enviar</button>
+            <p class="muted small">* Este formulario es demostrativo. Si quieres, te lo conecto a Formspree o Netlify Forms.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <button class="to-top" id="toTopBtn" aria-label="Volver arriba">↑</button>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="muted">© <span id="year"></span> Víctor Hugo Díaz Bautista • Hecho con HTML/CSS/JS</p>
+      <a class="muted" href="#inicio">Volver al inicio</a>
+    </div>
+  </footer>
+
+  <script src="./js/main.js" defer></script>
+</body>
+</html>
